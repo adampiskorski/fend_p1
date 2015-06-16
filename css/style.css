@@ -1,0 +1,96 @@
+* {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+}
+
+/* Project links */
+a {
+    color: #bcbbbb;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+/* Page title */
+h1 {
+    font-weight: 100;
+    font-size: 3em;
+}
+
+/* Work section title */
+h2 {
+    color: #bcbbbb;
+    font-size: 3em;
+}
+
+/* Project title */
+h3 {
+    font-size: 3em;
+}
+
+hr {
+    margin-bottom: 30px;
+    height: 3px;
+    border: none;
+    background: #bcbbbb;
+}
+
+.full-width {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.proj {
+    margin-top: 50px;
+}
+
+#proj-head-row {
+    margin-top: 15px;
+    margin-bottom: -40px;
+}
+
+#slogan {
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+/* Minor Breakpoint 1 */
+@media screen and (min-width: 450px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+/* Minor Breakpoint 2 */
+@media screen and (min-width: 767px) {
+    h2 {
+        padding-left: 15px;
+    }
+}
+
+/* Major Breakpoint 1 */
+@media screen and (min-width: 992px) {
+    .proj {
+        margin-top: 0;
+    }
+
+    #proj-head-row {
+        margin-bottom: 0;
+    }
+
+    #proj-second-row {
+        margin-top: 40px;
+    }
+
+    #udacity-logo {
+        margin-left: 15px;
+    }
+}
+
+/* Major Breakpoint 2 */
+@media screen and (min-width: 1080px) {
+    .container {
+        width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
